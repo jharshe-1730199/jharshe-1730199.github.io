@@ -2,7 +2,7 @@
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	border: solid 8px black;
 	text-align: center;
 	background-color: #8E41D5;
@@ -17,16 +17,20 @@
 	text-align: center;
 	padding-bottom: 8px;
 	background-color: #8E41D5;
+	outline-style: double;
+	outline-color: white;
 }
 
 #Content {
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	border: solid 8px black;
-	padding: 15px;
 	background-color: #8E41D5;
+	border: 15px solid #EEBE00;
+	outline-style: groove;
+	outline-color: black;
 }
 
 #Footer {
@@ -48,6 +52,7 @@ ul{
 	font-family: "Passion One";
 	color: #FFBC00;
 	font-weight: bold;
+	text-transform: uppercase
 }
 
 p{
@@ -73,10 +78,3 @@ a {
 	font-size: bold;
 	font-size: 24px;
 }
-
-
-
-
-
-
-
